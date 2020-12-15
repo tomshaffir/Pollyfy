@@ -1,0 +1,19 @@
+.container{
+  background-color: white;
+  box-shadow:  2px 3px 5px 1px #9f9f9f;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 0px;
+}
+
+img{
+  height: 180px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+img:hover{
+  transform: scale(1.2);
+  position: absolute;
+  z-index: 99999;
+}

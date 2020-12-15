@@ -1,0 +1,68 @@
+.activity-main{
+  box-shadow:  2px 3px 5px 1px #9f9f9f;
+}
+
+.activity-row-select{
+  transition: 1s;
+  cursor: pointer;
+}
+
+.activity-row-select:hover{
+  background-color: rgba(24, 125, 214, 0.689);
+}
+
+.fa{
+  font-size: 30px;
+  width: 35px;
+  margin: 5px 0px;
+}
+
+.fa-home{
+  color: rgb(35, 52, 181);
+}
+
+.fa-compass{
+  color: rgb(239, 96, 13);
+}
+
+.fa-heartbeat{
+  color: rgb(233, 14, 14);
+}
+
+.fa-bell{
+  color: rgb(251, 214, 77);
+}
+
+.fa-envelope{
+  color: rgb(26, 136, 253);
+}
+
+.fa-chevron-circle-down{
+  color: rgb(68, 115, 164);
+}
+
+.activity-text{
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.advanced-text{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.bar-chart{
+  font-size: 30px;
+  width: 32px;
+  margin: 5px 0px;
+  color: yellow;
+  margin-right: 5px;
+}
+
+.fa-arrow-box{
+  color: #235c95;
+}
+
+.fa-suitcase{
+  color: brown;
+}

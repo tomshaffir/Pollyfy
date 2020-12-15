@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row">
+    <div class="profile-img" style="background-image: url('../../../assets/1.jpg');"></div>
+  </div>
+  <div class="mt-4 row d-flex justify-content-center align-content-center">
+    <div style="font-weight: bold;">
+      {{userName}}
+    </div>
+    <div style="width: 20px; height: 20px;" class="ml-1">
+      <i style="font-size: 1.4em;" class="fa fa-flag-checkered"></i>
+    </div>
+    <div>
+    </div>
+  </div>
+
+  <div class="row followers mt-2 p-1 d-flex justify-content-between align-content-center">
+    <div class="d-flex flex-row">
+      <div class="d-flex align-items-center " style="font-weight: bold; font-size: 13px; ">
+        {{userFollowersCount}}
+      </div>
+      <div class="d-flex align-items-center ml-1" style="font-weight: bold; font-size: 13px;">
+
+        Followers
+      </div>
+    </div>
+    <div>
+      <button  type="button" class="btn button-main-view btn-sm btn-outline-primary">Message <i style="background-color: #040c1d;" class="fa fa-envelope"></i></button>
+      <button  type="button" class="btn button-main-view btn-sm btn-outline-primary ml-1">Following <i class="fa fa-check"></i></button>
+    </div>
+  </div>
+</div>
+
+<app-small-bar></app-small-bar>
+<app-expiration-all></app-expiration-all>
+<app-decision></app-decision>
+<app-privacy></app-privacy>
+<app-polls-view></app-polls-view>
